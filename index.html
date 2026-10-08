@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="HUB CLASS LTD — software, web portals, telecommunications and digital advertising from Covent Garden, London." />
+  <title>HUB CLASS LTD — Digital Software Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="water-canvas" aria-hidden="true"></canvas>
+  <div class="aqua-orb aqua-orb--one" aria-hidden="true"></div>
+  <div class="aqua-orb aqua-orb--two" aria-hidden="true"></div>
+  <div class="aqua-orb aqua-orb--three" aria-hidden="true"></div>
+  <div class="page-veil" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="shell header-inner glass-bar">
+      <a class="brand" href="#top" aria-label="HUB CLASS LTD home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-name">HUB CLASS</span>
+          <span class="brand-ltd">LTD</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#studio">Studio</a>
+        <a href="#codes">Activities</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="shell hero-inner">
+        <p class="hero-kicker">London · Software &amp; Digital Systems</p>
+        <h1 class="hero-brand">
+          <span class="hero-brand-line">HUB</span>
+          <span class="hero-brand-line hero-brand-line--accent">CLASS</span>
+          <span class="hero-brand-ltd">LTD</span>
+        </h1>
+        <p class="hero-lede">
+          We design and ship clear digital products — portals, telecom-ready platforms,
+          and campaigns that move with the market.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Start a project</a>
+          <a class="btn btn-ghost" href="#services">Explore services</a>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true"></div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="shell">
+        <header class="section-head">
+          <p class="eyebrow">What we build</p>
+          <h2>Four currents. One studio.</h2>
+          <p class="section-copy">
+            From infrastructure-adjacent software to brand-facing portals and paid media —
+            HUB CLASS connects the stack so your growth doesn’t stall at the seams.
+          </p>
+        </header>
+
+        <div class="service-rail">
+          <article class="glass-panel service-panel">
+            <div class="panel-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 8h16M4 16h16M8 4v16M16 4v16" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Telecommunications software</h3>
+            <p>Systems that keep signals, sessions, and service layers reliable across channels.</p>
+            <span class="code-chip">SIC 61900</span>
+          </article>
+
+          <article class="glass-panel service-panel">
+            <div class="panel-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="8"/><path d="M3 12h18M12 4a14 14 0 0 1 0 16M12 4a14 14 0 0 0 0 16" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Web portals</h3>
+            <p>Secure, fast destinations where customers, partners, and content meet in one flow.</p>
+            <span class="code-chip">SIC 63120</span>
+          </article>
+
+          <article class="glass-panel service-panel">
+            <div class="panel-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 19V5M4 19h16M8 15l3-4 3 2 4-6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Advertising agencies</h3>
+            <p>Creative direction and campaign systems tuned for measurable reach and brand clarity.</p>
+            <span class="code-chip">SIC 73110</span>
+          </article>
+
+          <article class="glass-panel service-panel">
+            <div class="panel-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 3v18M5 8l7-4 7 4M5 16l7 4 7-4" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Specialist digital services</h3>
+            <p>Custom builds and adjacent service work when the brief doesn’t fit a single box.</p>
+            <span class="code-chip">SIC 96090</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section studio" id="studio">
+      <div class="shell studio-grid">
+        <div class="studio-copy">
+          <p class="eyebrow">The studio</p>
+          <h2>Built like water — clear, adaptive, under pressure.</h2>
+          <p>
+            HUB CLASS LTD is a London software company working at the edge of portals,
+            telecom activity, and advertising systems. We favour interfaces that feel calm,
+            stacks that stay maintainable, and launches that respect real operating constraints.
+          </p>
+          <ul class="studio-points">
+            <li>
+              <strong>Product clarity</strong>
+              <span>Interfaces that explain themselves without noise.</span>
+            </li>
+            <li>
+              <strong>Reliable delivery</strong>
+              <span>Engineering discipline from first commit to live ops.</span>
+            </li>
+            <li>
+              <strong>Brand presence</strong>
+              <span>Digital surfaces that carry your voice across every channel.</span>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="glass-panel studio-card" aria-label="Company snapshot">
+          <p class="studio-card-label">Registered presence</p>
+          <p class="studio-card-place">Covent Garden</p>
+          <p class="studio-card-city">London, United Kingdom</p>
+          <div class="studio-card-divider"></div>
+          <dl class="studio-meta">
+            <div>
+              <dt>Focus</dt>
+              <dd>Software · Portals · Media</dd>
+            </div>
+            <div>
+              <dt>Reach</dt>
+              <dd>UK &amp; international briefs</dd>
+            </div>
+            <div>
+              <dt>Contact</dt>
+              <dd><a href="mailto:info@hub-class.com">info@hub-class.com</a></dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section codes" id="codes">
+      <div class="shell">
+        <header class="section-head section-head--center">
+          <p class="eyebrow">Official activities</p>
+          <h2>SIC classifications</h2>
+          <p class="section-copy">
+            Our registered activities span telecommunications, web portals, advertising, and specialist services.
+          </p>
+        </header>
+
+        <ul class="code-list">
+          <li class="glass-panel code-row">
+            <span class="code-num">61900</span>
+            <span class="code-name">Other telecommunications activities</span>
+          </li>
+          <li class="glass-panel code-row">
+            <span class="code-num">63120</span>
+            <span class="code-name">Web portals</span>
+          </li>
+          <li class="glass-panel code-row">
+            <span class="code-num">73110</span>
+            <span class="code-name">Advertising agencies</span>
+          </li>
+          <li class="glass-panel code-row">
+            <span class="code-num">96090</span>
+            <span class="code-name">Other service activities n.e.c.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="shell contact-grid">
+        <div class="contact-intro">
+          <p class="eyebrow">Contact</p>
+          <h2>Tell us what you’re building.</h2>
+          <p>
+            Share a short brief and we’ll respond with next steps. Prefer a call or email —
+            both land with the same studio team.
+          </p>
+        </div>
+
+        <div class="contact-panels">
+          <a class="glass-panel contact-tile" href="mailto:info@hub-class.com">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">info@hub-class.com</span>
+          </a>
+          <a class="glass-panel contact-tile" href="tel:+441413541457">
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">0141 354 1457</span>
+          </a>
+          <div class="glass-panel contact-tile contact-tile--address">
+            <span class="contact-label">Registered office</span>
+            <address class="contact-value">
+              71-75, Shelton Street<br />
+              Covent Garden<br />
+              London, WC2H 9JQ<br />
+              United Kingdom
+            </address>
+          </div>
+        </div>
+
+        <form class="glass-panel contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required placeholder="Your name" />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@company.com" />
+          </div>
+          <div class="form-row">
+            <label for="message">Project notes</label>
+            <textarea id="message" name="message" rows="5" required placeholder="What should we help you ship?"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner glass-bar">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div>
+          <p class="footer-name">HUB CLASS LTD</p>
+          <p class="footer-tag">Software · Portals · Advertising</p>
+        </div>
+      </div>
+      <p class="footer-legal">© <span id="year"></span> HUB CLASS LTD. All rights reserved.</p>
+      <a class="footer-top" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
